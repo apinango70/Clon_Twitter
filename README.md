@@ -9,7 +9,7 @@ _Proyecto para mostrar registros de una base de datos postgresql simulando la pl
 Para descargar (clonar) este repositorio debes ejecutar en tu cónsola:
 
 ```hash
-git clone https://github.com/apinango70/clone_twitter
+git clone https://github.com/apinango70/clon_twitter
 ```
 
 ### Pre-requisitos 📋
