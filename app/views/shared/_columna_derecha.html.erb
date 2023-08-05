@@ -1,0 +1,98 @@
+<div class="columna der">
+
+        <div class="der__search">
+          <input class="der__input" type="text" placeholder="Buscar en Twitter">
+        </div>
+
+        <div class="der__pasando">
+            <h2 class="pasando__h2">Qué está pasando</h2>
+            <ul class="pasando__ul">
+                    <li class="pasando__li">
+                        <a class="pasando__a" href="#" title="Random">
+                            <span class="pasando__claim">Actualidad · Hace 5 horas</span>
+                            <h3>Lanzan ropa interior autolimpiante, que se puede usar durante semanas sin que apeste.</h3>
+                        </a>
+                    </li>
+                    <li class="pasando__li">
+                        <a class="pasando__a" href="#" title="Random">
+                            <span class="pasando__claim">ECONOMÍA · Hace 5 horas</span>
+                            <h3>La máquina expendedora que vende lingotes de oro.</h3>
+                        </a>
+                    </li>
+                    <li class="pasando__li">
+                            <a class="pasando__a" href="#" title="Random">
+                                <div class="user">
+                                    <img class="user__img" src="https://thispersondoesnotexist.com/" alt="Foto">
+                                     <% @tweets.each do |tweet| %>
+                                    <h4 class="user__p"><%= tweet.user_name %></h4>
+                                    <span class="pasando__claim"> Hace 4 horas</span>
+                                </div>
+                                <h3>Inventan motocicleta que usa cerveza como combustible.</h3>
+                            </a>
+                        </li>
+                    <li class="pasando__li">
+                        <a class="pasando__a" href="#" title="Random">
+                            <span class="pasando__claim">COVID-19 · Hace 4 horas</span>
+                            <h3>Científicos de la Universidad de Oxford</h3>
+                            <div class="pasando__tendencias">
+                                Tendencias <span>Palabra</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="pasando__li">
+                        <a class="pasando__a" href="#" title="Random">
+                            <span class="pasando__claim">NOTICIA · Hace 4 horas</span>
+                            <h3>Subway regalará sandwiches de por vida a quien se cambie su nombre a Subway</h3>
+                            <div class="pasando__tendencias">
+                                Tendencias <span>Palabra</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <a class="der__mostrar" href="#" title="Mostrar Más">Mostrar Más</a>
+        </div>
+
+        <div class="der__seguir">
+            <h2 class="seguir__h2">A quién seguir</h2>
+            <ul class="seguir__ul">
+                <li class="seguir__li">
+                    <img class="seguir__user" src="https://thispersondoesnotexist.com/?951357 alt="User">
+                    <div class="seguir__text">
+                      <h4 class="seguir__h4">Nombre</h4>
+                      <p class="seguir__p">@nombreuser</p>
+                    </div>
+                    <a class="seguir__a" href="#" title="Seguir">Seguir</a>
+                </li>
+                <li class="seguir__li">
+                    <img class="seguir__user" src="https://thispersondoesnotexist.com/?9" alt="User">
+                    <div class="seguir__text">
+                      <h4 class="seguir__h4">Nombre</h4>
+                      <p class="seguir__p">@nombreuser</p>
+                    </div>
+                    <a class="seguir__a" href="#" title="Seguir">Seguir</a>
+                </li>
+                <li class="seguir__li">
+                    <img class="seguir__user" src="https://thispersondoesnotexist.com/?123" alt="User">
+                    <div class="seguir__text">
+                      <h4 class="seguir__h4">Nombre</h4>
+                      <p class="seguir__p">@nombreuser</p>
+                    </div>
+                    <a class="seguir__a" href="#" title="Seguir">Seguir</a>
+                </li>
+                <a class="der__mostrar" href="#" title="Mostrar Más">Mostrar Más</a>
+            </ul>
+        </div>
+
+        <ul class="der__ul">
+            <li class="der__li"><a href="#" title="Acerca de">Acerca de</a></li>
+            <li class="der__li"><a href="#" title="Centro de ayuda">Centro de ayuda</a></li>
+            <li class="der__li"><a href="#" title="Condiciones de Servicio">Condiciones de Servicio</a></li>
+            <li class="der__li"><a href="#" title="Política de Privacidad">Política de Privacidad</a></li>
+            <li class="der__li"><a href="#" title="Política de cookies">Política de cookies</a></li>
+            <li class="der__li"><a href="#" title="Información de anuncios">Información de anuncios</a></li>
+            <li class="der__li">© 2023 Twitter, Inc.</li>
+        </ul>
+    </div>
+
+ <% end %>

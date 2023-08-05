@@ -3,7 +3,11 @@ class TweetsController < ApplicationController
 
   # GET /tweets or /tweets.json
   def index
+    # Tweet.new para que aparezca elfform new en index
+    @tweet = Tweet.new
     @tweets = Tweet.all
+    # Agrego a pagy  le indico que muestre del más reciente al más antiguo
+    @pagy, @tweets = pagy(Tweet.all.order(:created_at => :desc))
   end
 
   # GET /tweets/1 or /tweets/1.json
@@ -25,7 +29,9 @@ class TweetsController < ApplicationController
 
     respond_to do |format|
       if @tweet.save
-        format.html { redirect_to tweet_url(@tweet), notice: "Tweet was successfully created." }
+         # format.html { redirect_to tweet_url(@tweet), notice: "Tweet was successfully created." }
+        # Redirecciono a la vista index en vez de ir a la vista new
+        format.html { redirect_to tweets_url, notice: "Tweet was successfully created." }
         format.json { render :show, status: :created, location: @tweet }
       else
         format.html { render :new, status: :unprocessable_entity }
