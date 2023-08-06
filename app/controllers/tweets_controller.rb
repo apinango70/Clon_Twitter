@@ -3,7 +3,7 @@ class TweetsController < ApplicationController
 
   # GET /tweets or /tweets.json
   def index
-    # Tweet.new para que aparezca elfform new en index
+    # Tweet.new para que aparezca el form new en index
     @tweet = Tweet.new
     @tweets = Tweet.all
     # Agrego a pagy  le indico que muestre del más reciente al más antiguo
