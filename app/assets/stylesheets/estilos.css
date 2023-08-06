@@ -1180,6 +1180,9 @@ body {
   font-size: 0.8em;
   margin: 0 0.4em 0 0;
 }
+#pajarito {
+  font-size: 23px;
+}
 .home .centro__tiempo {
   color: #8899a6;
   font-size: 0.8em;
