@@ -132,6 +132,10 @@ Para el desarrollo de este proyecto se utilizaron las sigientes heramientas
 * [Rails 7.0.6](https://rubyonrails.org/)
 * [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/download/)
 * [Postgresql 14.8](https://www.postgresql.org/)
+Imagenes utilizadas:
+* [Imágenes de los usuarios - thispersondoesntexist](https://thispersondoesnotexist.com/)
+* [Imágenes para los tweets - lorem picsum](https://picsum.photos/)
+* [Modelo html tomado del proyecto de Eduardo Fierro](https://github.com/eduardofierropro/TwitterRap/)
 
 ## Contribuyendo 🖇️
 
