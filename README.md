@@ -1,4 +1,5 @@
 <!-- <img src="screen.png" alt="Imagen de ejemplo"> -->
+![Ejemplo de imagen](screen_capture.png)
 
 # Clon de Twitter
 
